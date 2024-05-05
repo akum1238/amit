@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testing_baba">
+  <test name="Login Test">
+    <classes>
+      <class name="Testingbaba_Test.Textbox_test"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Textbox_test">
+	  <classes>
+		  <class name="Testingbaba_Test.Login_test"/> 
+	  </classes>
+  </test>
+</suite> <!-- Suite -->
